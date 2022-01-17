@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WDP3</title>
+
+    <link href="/css/index.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <h1>SQL Injections</h1>
+
+        <form class="sql_form" id="sql-form">
+            <label for="name-input">Name:</label>
+            <input id="name-input" type="text" name="name" required>
+            <label for="safe-sql">Safe SQL:</label>
+            <input id="safe-sql" type="checkbox" name="safe">
+            <label for="client-side">Client side check:</label>
+            <input id="client-side" type="checkbox" name="client">
+
+            <input type="submit" value="send">
+        </form>
+
+    </section>
+    <section id="result">
+
+    </section>
+    <script src="/js/index.js"></script>
+</body>
+</html>
